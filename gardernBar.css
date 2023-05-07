@@ -252,7 +252,7 @@ transform: translateY(0px) rotate(45deg);
     text-decoration: none;
     color:  #f1f1f1;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 20px;
     display: block;
  
@@ -853,6 +853,11 @@ padding: 0;
   #sidebar{
     display: block;
   }
+
+  #sidebar ul{
+    position: relative;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width:930px) {
@@ -894,4 +899,3 @@ padding: 0;
     font-size: 80px;
   }
 } 
-
