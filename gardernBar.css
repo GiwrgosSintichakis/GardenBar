@@ -1015,3 +1015,24 @@ padding: 0;
 
 } 
 
+@media only screen and (min-width:520px) {
+
+  #sidebar ul li a{
+    font-size: 1.3rem;
+    padding-bottom: 13px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+} 
+
+
+@media only screen and (min-width:600px) {
+
+  #sidebar ul li a{
+    font-size: 1.3rem;
+    margin-top: 13px;
+  }
+} 
+
